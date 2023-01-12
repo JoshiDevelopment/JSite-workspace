@@ -11,21 +11,21 @@ $2 ("h1-h6") //
     // h1-h6 are the different sizes of headers in HTML
     // h1-h6 is also a hierarchy of importance
 .
-$3 (<a href="") // 
+$3 ("<a href=") // 
     // [Example] 
     // <p>I love weed, I buy from <a href="https://zenleafdispensaries.com/">Zen Leaf Dispensary</a></p>
 .
-$4 ("") // 
+$4 ("<table>") // 
     // [Example] 
     //
 
 
 .
-$5 ("") // 
+$5 ("<tr>") // 
     // [Example] 
     //
 .
-$6 ("") // 
+$6 ("<td>") // 
     // [Example] 
     //
 .
