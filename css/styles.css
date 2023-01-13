@@ -1,5 +1,6 @@
+/*******************TAG SELECTORS*******************/
 body {
-  background-color: #ffc3a1;
+  background-color: #434242;
 }
 
 hr {
@@ -9,3 +10,109 @@ hr {
   border-width: 5px;
   width: 5%;
 }
+
+h1 {
+
+  font-family: "Lobster", cursive;
+  font-size: 35px;
+  color: #FFC93C;
+  text-align: left;
+}
+
+h2 {
+  font-family: "Lobster", cursive;
+  font-size: 50px;
+  color: #FFC93C;
+  text-align: left;
+}
+
+h3 {
+  font-family: "Lobster", cursive;
+  font-size: 50px;
+  color: #86E5FF;
+  text-align: left;
+}
+
+h4 {
+  font-family: "Lobster", cursive;
+  font-size: 25px;
+  color: #F3EFE0;
+  text-align: left;
+}
+
+p {
+  font-family: "Lobster", cursive;
+  font-size: 15px;
+  color: #f3efe0;
+  text-align: left;
+}
+
+ul {
+  font-family: "Lobster", cursive;
+  font-size: 15px;
+  color: #fffbac;
+  text-align: left;
+}
+
+li {
+  font-family: "Lobster", cursive;
+  font-size: 15px;
+  color: #22a39f;
+  text-align: left;
+}
+/*******************CLASS SELECTORS*******************/
+/***[Header]***/
+#header {
+  text-align : left;
+  background-color: #333;
+  color: #fff;
+  height: 25px;
+  padding: 5px;
+}
+
+
+/*******************ID SELECTORS*******************/
+
+
+/***[Navagation Bar]***/
+#navbar {
+  display:flex;
+  justify-content: left;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+#navbar nav {
+  display: flex;
+}
+
+#navbar nav  li {
+  list-style:none;
+  text-align:left;
+  text-shadow:#333;
+  margin-right: 10px;
+}
+
+#navbar li a {
+  color: #fff;
+  font-family: "Lobster", cursive;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+#navbar nav li a:hover {
+
+  color: ccc;
+
+}
+
+
+#sProgress {
+  text-align: left;
+}
+
+#skills {
+  text-align: left;
+}
+

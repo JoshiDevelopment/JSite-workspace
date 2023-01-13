@@ -8,20 +8,22 @@
     </head>
 
     <body>
-      <table cellspacing="20">
-        <tr>
-          <td><img src="img/face.png" alt="Joshua Crawford's Profile Picture"></td>
-          <td><h1>Joshua Micheal Crawford</h1></td>
-        </tr>
-        </table>
+      <header>
+        <img id="face" src="img/face.png" alt="Joshua's Profile Picture" />
+        <h1>Joshua Crawford</h1>
+        <h4>Software Engineer</h4>
+      </header>
+
+      <div id="navbar">
+        <nav>
           <li><a href="#About">About</a></li>
           <li><a href="#education">Education</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="contact.html">Contact</a></li>
-        </td>
-      </table>
+        </nav>
+      </div>
       <header>
       </header>
       <main>
@@ -50,15 +52,15 @@
         </section>
         <!--Experience-->
         <section id="experience">
-          <hr>
           <h2>Experience</h2>
+          <hr>
           <h3>(Job Title Here)</h3>
           <p>(Company Name)</p>
           <p>(June 2022 - July 2023)</p>
           <p>
-            As a software development intern at XYZ Company, I worked on a team
+            As a software development intern at XYZ Company, <br> I worked on a team
             to develop and maintain web applications using technologies such as
-            Java and React. I also had the opportunity to collaborate with other
+            Java and React. <br> I also had the opportunity to collaborate with other
             teams on cross-functional projects.
           </p>
         </section>
@@ -66,22 +68,15 @@
         <section id="projects">
           <hr>
           <h2>Projects</h2>
-          <h3>Online Course Registration System</h3>
+          <hr>
+          <h3>Mock Portfolio</h3>
           <p>
-            Developed a web application for students to register for courses
-            online. Utilized Java server and MySQL for the backend and HTML,
-            CSS, and JavaScript for the frontend.
-          </p>
-          <h3>Personal Blog</h3>
-          <p>
-            Created a personal blog using Gatsby and React. Published articles
-            on various topics including technology, education, and personal
-            development.
+            Created a mock portfolio using HTML and CSS. <br> This project was
+            created to demonstrate my knowledge of HTML and CSS.
           </p>
         </section>
         <!--Skills-->
         <section id="skills">
-          <hr>
           <h2>Skills</h2>
           <hr>
           <ul>
@@ -95,7 +90,6 @@
         </section>
         <!--Skills Progress -->
         <section id="sProgress">
-          <hr>
           <h2>Known Languages</h2>
           <hr>
           <ul>
@@ -119,7 +113,7 @@
               (Framework)
               <progress value="0" max="100"></progress> 
             </li>
-            <p>I have not learned a framework yet, when I proficient in one I will mark it here</p>
+            <p style="color:#222222";>I have not learned a framework yet, when I proficient in one I will mark it here</p>
             <hr>
             <!-- Additional Languages go here -->
           </ul>
