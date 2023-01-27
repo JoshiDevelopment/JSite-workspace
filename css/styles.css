@@ -61,15 +61,48 @@ li {
   text-align: left;
 }
 /*******************CLASS SELECTORS*******************/
+
 /***[Header]***/
-#header {
+.header {
   text-align : left;
   background-color: #333;
   color: #fff;
   height: 25px;
-  padding: 5px;
+  padding: 25px;
 }
 
+.headf {
+  border-radius: 50%;
+  width: 65;
+  height: 65px;
+  border: 5px solid #0e0d0d;
+  margin: 0 auto;
+  display: left;
+  position:absolute;
+  top: 1.2%;
+  left : 0.3cm;
+}
+
+.headn {
+  font-family: "Lobster", cursive;
+  font-size: 25px;
+  color: #FFC93C;
+  text-align: left;
+  position:absolute;
+  top: 0.80%; 
+  left : 2.5cm;
+}
+
+.heado {
+  font-family: "Lobster", cursive;
+  font-size: 20px;
+  color: #FFC93C;
+  text-align: left;
+  position:absolute;
+  top: 0.8cm;
+  left : 2.5cm;
+}
+/******/
 
 /*******************ID SELECTORS*******************/
 
@@ -107,6 +140,16 @@ li {
 
 }
 
+#edu {
+  font-weight: bold;
+  font-size: 55px;
+}
+
+#abt {
+
+  font-weight: bold;
+  font-size: 55px;
+}
 
 #sProgress {
   text-align: left;
